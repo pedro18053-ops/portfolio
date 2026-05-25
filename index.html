@@ -2,19 +2,109 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedro Silva | Desenvolvedor Web</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #1e293b, #0f172a);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .subtitle {
+      color: #38bdf8;
+      margin-top: 10px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 20px;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .btn:hover {
+      background: #16a34a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align:center; padding:40px;">
 
+<body>
+
+<header>
   <h1>Pedro Silva</h1>
-  <p>Desenvolvedor Web iniciante</p>
+  <p class="subtitle">Desenvolvedor Web iniciante</p>
+</header>
 
-  <h2>Meus serviços</h2>
-  <p>Criação de sites simples para negócios locais</p>
+<div class="container">
 
-  <a href="https://wa.me/5582999999999" target="_blank">
-    Falar comigo no WhatsApp
-  </a>
+  <div class="card">
+    <h2>Sobre mim</h2>
+    <p>Crio sites simples e modernos para pequenos negócios que querem aparecer na internet e vender mais.</p>
+  </div>
+
+  <div class="card">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Sites para negócios locais</li>
+      <li>Landing pages</li>
+      <li>Páginas com WhatsApp</li>
+      <li>Sistemas simples em Web</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Contato</h2>
+    <p>Fale comigo agora:</p>
+
+    <a class="btn" href="https://wa.me/5582999999999" target="_blank">
+      Pedir orçamento no WhatsApp
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  Portfólio criado por Pedro Silva 🚀
+</footer>
 
 </body>
 </html>
